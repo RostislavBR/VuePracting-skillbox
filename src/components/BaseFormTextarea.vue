@@ -1,19 +1,19 @@
-<!--<template>-->
-<!--  <BaseFormField :title="title" :error="error">-->
-<!--    <textarea class="form__input form__input&#45;&#45;area" v-model="dataValue" name="comments" :placeholder="placeholder" ></textarea>-->
-<!--  </BaseFormField>-->
-<!--</template>-->
+<template>
+  <BaseFormField :title="title" :error="error">
+    <textarea class="form__input form__input--area" v-model="dataValue" name="comments" :placeholder="placeholder" ></textarea>
+  </BaseFormField>
+</template>
 
-<!--<script>-->
+<script>
 
-<!--// eslint-disable-next-line import/no-unresolved-->
-<!--import formFieldMixin from '@/mixins/formFieldMixin';-->
+// eslint-disable-next-line import/no-unresolved
+import formFieldMixin from '@/mixins/formFieldMixin';
 
-<!--export default {-->
-<!--  mixins: [formFieldMixin],-->
-<!--};-->
-<!--</script>-->
+export default {
+  mixins: [formFieldMixin],
+};
+</script>
 
-<!--<style scoped>-->
+<style scoped>
 
-<!--</style>-->
+</style>

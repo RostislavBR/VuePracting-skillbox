@@ -10,6 +10,8 @@ import ProductPage from '@/pages/ProductPage';
 import CartPage from '@/pages/CartPage';
 // eslint-disable-next-line import/extensions,import/no-unresolved
 import OrderPage from '@/pages/OrderPage';
+// eslint-disable-next-line import/extensions
+import OrderInfoPage from '@/pages/OrderInfoPage';
 
 Vue.use(VueRouter);
 
@@ -17,8 +19,9 @@ const routes = [
   { name: 'main', component: MainPage, path: '/' },
   { name: 'product', component: ProductPage, path: '/product/:id' },
   { name: 'cart', component: CartPage, path: '/cart' },
-  { name: 'notFound', component: NotFoundPage, path: '*' },
   { name: 'order', component: OrderPage, path: '/order' },
+  { name: 'orderInfo', component: OrderInfoPage, path: '/order/:id' },
+  { name: 'notFound', component: NotFoundPage, path: '*' },
 ];
 
 const router = new VueRouter({

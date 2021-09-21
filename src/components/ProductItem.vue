@@ -28,8 +28,7 @@
 
 <script>
 
-// import axios from 'axios';
-import numberFormat from '../helpers/numberFormat';
+import numberFormat from '@/helpers/numberFormat';
 
 export default {
   data() {

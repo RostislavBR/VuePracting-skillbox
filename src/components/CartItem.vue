@@ -61,9 +61,6 @@ export default {
       },
     },
   },
-  watch: {
-
-  },
   methods: {
     ...mapMutations({ incrementProduct: 'incrementCartProduct', decrementProduct: 'decrementCartProduct' }),
     deleteItem() {

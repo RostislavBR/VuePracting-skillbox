@@ -11,10 +11,11 @@ export default {
 <style scoped>
   .lds-ring {
     display: inline-block;
-    position: relative;
+    position: fixed;
+    top: 125px;
     width: 80px;
     height: 80px;
-    left: 55%;
+    left: 50%;
   }
   .lds-ring div {
     box-sizing: border-box;

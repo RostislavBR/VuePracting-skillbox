@@ -1,25 +1,24 @@
-<!--<template>-->
-<!--  <BaseFormField :title="title" :error="error">-->
-<!--    <input class="form__input" :type="type" v-model="dataValue" name="name" :placeholder="placeholder">-->
-<!--  </BaseFormField>-->
-<!--</template>-->
+<template>
+  <BaseFormField :title="title" :error="error">
+    <input class="form__input" v-model="dataValue" :type="type" :placeholder="placeholder">
+  </BaseFormField>
+</template>
 
-<!--<script>-->
+<script>
 
-<!--// eslint-disable-next-line import/no-unresolved-->
-<!--import formFieldMixin from '@/mixins/formFieldMixin';-->
+// eslint-disable-next-line import/no-unresolved
+import formFieldMixin from '@/mixins/formFieldMixin';
 
-<!--export default {-->
-<!--  props: {-->
-<!--    type: {-->
-<!--      default: 'text',-->
-<!--    },-->
-<!--  },-->
+export default {
+  props: {
+    type: {
+      default: 'text',
+    },
+  },
+  mixins: [formFieldMixin],
+};
+</script>
 
-<!--};-->
-<!--console.log(formFieldMixin);-->
-<!--</script>-->
+<style scoped>
 
-<!--<style scoped>-->
-
-<!--</style>-->
+</style>
